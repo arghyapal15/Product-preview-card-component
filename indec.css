@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3eae3;
+}
+
+.box {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .container {
+  position: relative;
+  height: 62vh;
+  width: 42vw;
+  background-color: #fff;
+  border-radius: 3%;
+}
+.box .container .img {
+  float: left;
+  margin-right: 2rem;
+}
+.box .container .img img {
+  height: 62vh;
+  width: 21vw;
+  border-radius: 3% 0 0 3%;
+}
+.box .container .img .b {
+  display: none;
+}
+.box .container .dec {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  top: 2rem;
+}
+.box .container .dec h3 {
+  position: absolute;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: #868896;
+}
+.box .container .dec h1 {
+  margin-top: 1.5rem;
+  font-size: 2.3rem;
+  float: left;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.box .container .dec p {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  float: left;
+  color: #868896;
+}
+.box .container .dec .price {
+  position: relative;
+  top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box .container .dec .price h4 {
+  font-size: 2.5rem;
+  color: #3b836b;
+  margin-right: 1.8rem;
+}
+.box .container .dec .price h6 {
+  position: relative;
+  float: right;
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: #868896;
+  font-weight: 100;
+}
+.box .container .dec button {
+  position: relative;
+  top: 2.5rem;
+  width: 16vw;
+  height: 7vh;
+  border-radius: 10px;
+  background-color: #3d8168;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+.box .container .dec button img {
+  margin-right: 10px;
+  width: 1rem;
+}
+
+@media (width <= 1000px) {
+  .box {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box .container {
+    position: relative;
+    height: 90vh;
+    width: 90vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .box .container .img {
+    position: relative;
+    top: 0rem;
+    left: 0;
+    float: left;
+    margin-right: 2rem;
+  }
+  .box .container .img img {
+    overflow: auto;
+    height: 31vh;
+    width: 90vw;
+    border-radius: 10px 10px 0 0;
+  }
+  .box .container .img img .a {
+    display: none;
+  }
+  .box .container .img img .b {
+    display: block;
+  }
+  .box .container .dec {
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    top: 1.5rem;
+  }
+  .box .container .dec h3 {
+    position: absolute;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #868896;
+  }
+  .box .container .dec h1 {
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    float: left;
+    font-weight: 700;
+    line-height: 0.9;
+    text-transform: capitalize;
+  }
+  .box .container .dec p {
+    margin-top: 1.2rem;
+    font-size: 1.1rem;
+    float: left;
+    color: #868896;
+  }
+  .box .container .dec .price {
+    position: relative;
+    top: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .box .container .dec .price h4 {
+    font-size: 2.5rem;
+    color: #3b836b;
+    margin-right: 1.8rem;
+  }
+  .box .container .dec .price h6 {
+    position: relative;
+    float: right;
+    font-size: 1.2rem;
+    text-decoration: line-through;
+    color: #868896;
+    font-weight: 100;
+  }
+  .box .container .dec button {
+    position: relative;
+    bottom: 1rem;
+    width: 73vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: #3d8168;
+    border: none;
+    color: #fff;
+  }
+  .box .container .dec button img {
+    margin-right: 10px;
+    width: 1rem;
+  }
+}/*# sourceMappingURL=indec.css.map */
